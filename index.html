@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Louise Clarke</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="aboutMe.html">About me</a></li>
+                    <li><a class="nav-link" href="education.html">Education</a></li>
+                    <li><a class="nav-link" href="experience.html">Work Experience</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="description">
+        <h1>Welcome</h1>
+        <p><strong>Name: </strong>Louise Clarke</p>
+        <p><strong>Degree: </strong>Honours Bachelor of Science in Computing with Software Development</p>
+        <p><strong>Graduation year: </strong>2020</p>
+
+        <div class="one">
+            <button type="button" class="btn btn-success btn-outline-secondary btn-lg" data-toggle="modal" data-target="#myModal">Contact me</button>
+        </div>
+
+        <div class="two">
+            <form method="get" action="files/Louise-Clarke-CV.docx">
+                <button class="btn btn-success btn-outline-secondary btn-lg" type="submit">Download my CV</button>
+            </form>
+        </div>
+
+        <div class="modal fade" id="myModal" role="dialog" style="display: none;">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                        <h4 class="modal-title">Contact Information</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p><strong>Email: </strong>clarkelouise97@gmail.com</p>
+                        <p><strong>Phone number: </strong>0852409594</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

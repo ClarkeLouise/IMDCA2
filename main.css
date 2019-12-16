@@ -1,0 +1,87 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+    align-content: center;
+}
+
+@media (max-width: 575.98px) {
+    .description {
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+        align-content: center;
+    }
+
+    .description h1 {
+        font-size: 2em;
+        align-content: center;
+    }
+  
+  .description p {
+    font-size: 1.2rem;
+  }
+  
+  .features {
+    margin: 0;
+  }
+}
+
+/*--- navigation bar ---*/
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+/*--- description ---*/
+.description {    
+    position: relative;
+    text-align: center;
+    align-content: center;
+}
+
+. /*description h1 {
+  color: #6ab446;
+}*/
+.description p {
+    color: #000000;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    float: right;
+    display: inline-block;
+    position: relative;
+    align-content: center;
+    text-align: center;
+}
+
+.description h4 {
+    align-content: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+.description h1 {
+    margin-top: 60px
+}
+
+.one {
+    display: inline-block;
+}
+
+.two {
+    display: inline-block;
+}
